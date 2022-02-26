@@ -4,19 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title>Introducción a VueJS</title>
-    <meta name="author" content="Jesus Bonete Sanchez">
-    <meta name="description" content="Jesus Bonete Sanchez">
+    <meta name="author" content="">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <h1 id="autor">Jesus Bonete Sanchez</h1>
     <div id="app">
-
+        <div>
             <div class="jumbotron" style="background-color: #E8ECEE;">
                 <h1 id="title" class="display-5">{{col.collection.title}}</h1>
             </div>
-
+        </div>        
         <div class="card-group">
 
             <div class="card" v-for="elem1 in col.collection.items">
@@ -52,9 +52,8 @@
             -->
     </div>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://unpkg.com/vue"></script>
 <script type="text/javascript" src="./js/script.js"></script>
 
 
